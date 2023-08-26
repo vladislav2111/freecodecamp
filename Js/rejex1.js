@@ -38,8 +38,13 @@ let result = quoteSample.match(myRegex); // Change this line */
 let myRegex = /s+/gi; // Change this line
 let result = difficultSpelling.match(myRegex); */
 
-// Only change code below this line
+/* // Only change code below this line
 let chewieRegex = /Aa*/; // Change this line
 // Only change code above this line
 
-let result = chewieQuote.match(chewieRegex);
+/* let result = chewieQuote.match(chewieRegex); */
+
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*?>/; // Change this line
+let result = text.match(myRegex);
+
