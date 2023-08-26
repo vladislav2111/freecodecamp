@@ -18,6 +18,10 @@ let twinkleStar = "Twinkle, twinkle, little star";
 let starRegex = /twinkle/gi; // Change this line
 let result = twinkleStar.match(starRegex); // Change this line */
 
-let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+/* let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
 let vowelRegex = /[aeiou]/ig; // Change this line
-let result = quoteSample.match(vowelRegex); // Change this line
+let result = quoteSample.match(vowelRegex); // Change this line */
+
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/gi; // Change this line
+let result = quoteSample.match(alphabetRegex); // Change this line
