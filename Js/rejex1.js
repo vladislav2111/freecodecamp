@@ -69,11 +69,14 @@ let result = movieName.match(numRegex).length; */
 let noNumRegex = /\D/g; // Change this line
 let result = movieName.match(noNumRegex).length; */
 /* let username = "JackOfAllTrades";
-let userCheck = /^[a-z][a-z]+\d*$/i;// Change this line
+let userCheck = /^\W+\w+\d*$/i;// Change this line
 let result = userCheck.test(username);
 
 console.log(result); */
 
-let sample = "Whitespace is important in separating words";
+/* let sample = "Whitespace is important in separating words";
 let countWhiteSpace = /\s/g; // Change this line
-let result = sample.match(countWhiteSpace);
+let result = sample.match(countWhiteSpace); */
+let ohStr = "Ohhh no";
+let ohRegex = /oh{3,6} no/ig; // Change this line
+let result = ohRegex.test(ohStr);
