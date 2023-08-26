@@ -6,6 +6,10 @@ let result = myRegex.test(myString); // Change this line */
 let waldoRegex = /Waldo/; // Change this line
 let result = waldoRegex.test(waldoIsHiding); */
 
-let petString = "James has a pet cat.";
+/* let petString = "James has a pet cat.";
 let petRegex = /dog|cat|bird|fish/; // Change this line
-let result = petRegex.test(petString);
+let result = petRegex.test(petString); */
+
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/; // Change this line
+let result = extractStr.match(codingRegex); // Change this line
