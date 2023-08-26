@@ -47,6 +47,10 @@ let chewieRegex = /Aa*/; // Change this line
 /* let text = "<h1>Winter is coming</h1>";
 let myRegex = /<.*?>/; // Change this line
 let result = text.match(myRegex); */
-let rickyAndCal = "Cal and Ricky both like racing.";
+/* let rickyAndCal = "Cal and Ricky both like racing.";
 let calRegex = /^Cal/; // Change this line
-let result = calRegex.test(rickyAndCal);
+let result = calRegex.test(rickyAndCal); */
+
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; // Change this line
+let result = lastRegex.test(caboose);
