@@ -65,6 +65,15 @@ let result = quoteSample.match(nonAlphabetRegex).length; */
 /* let movieName = "2001: A Space Odyssey";
 let numRegex = /\d/g; // Change this line
 let result = movieName.match(numRegex).length; */
-let movieName = "2001: A Space Odyssey";
+/* let movieName = "2001: A Space Odyssey";
 let noNumRegex = /\D/g; // Change this line
-let result = movieName.match(noNumRegex).length;
+let result = movieName.match(noNumRegex).length; */
+/* let username = "JackOfAllTrades";
+let userCheck = /^[a-z][a-z]+\d*$/i;// Change this line
+let result = userCheck.test(username);
+
+console.log(result); */
+
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /\s/g; // Change this line
+let result = sample.match(countWhiteSpace);
