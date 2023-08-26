@@ -77,6 +77,10 @@ console.log(result); */
 /* let sample = "Whitespace is important in separating words";
 let countWhiteSpace = /\s/g; // Change this line
 let result = sample.match(countWhiteSpace); */
-let ohStr = "Ohhh no";
+/* let ohStr = "Ohhh no";
 let ohRegex = /oh{3,6} no/ig; // Change this line
-let result = ohRegex.test(ohStr);
+let result = ohRegex.test(ohStr); */
+
+let timStr = "Timmmmber";
+let timRegex = /tim{4}ber/i; // Change this line
+let result = timRegex.test(timStr);
