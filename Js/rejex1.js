@@ -22,6 +22,10 @@ let result = twinkleStar.match(starRegex); // Change this line */
 let vowelRegex = /[aeiou]/ig; // Change this line
 let result = quoteSample.match(vowelRegex); // Change this line */
 
-let quoteSample = "The quick brown fox jumps over the lazy dog.";
+/* let quoteSample = "The quick brown fox jumps over the lazy dog.";
 let alphabetRegex = /[a-z]/gi; // Change this line
-let result = quoteSample.match(alphabetRegex); // Change this line
+let result = quoteSample.match(alphabetRegex); // Change this line */
+
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]/gi; // Change this line
+let result = quoteSample.match(myRegex); // Change this line
