@@ -10,6 +10,10 @@ let result = waldoRegex.test(waldoIsHiding); */
 let petRegex = /dog|cat|bird|fish/; // Change this line
 let result = petRegex.test(petString); */
 
-let extractStr = "Extract the word 'coding' from this string.";
+/* let extractStr = "Extract the word 'coding' from this string.";
 let codingRegex = /coding/; // Change this line
-let result = extractStr.match(codingRegex); // Change this line
+let result = extractStr.match(codingRegex); // Change this line */
+
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /twinkle/gi; // Change this line
+let result = twinkleStar.match(starRegex); // Change this line
