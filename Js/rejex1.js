@@ -30,6 +30,10 @@ let result = quoteSample.match(alphabetRegex); // Change this line */
 let myRegex = /[h-s2-6]/gi; // Change this line
 let result = quoteSample.match(myRegex); // Change this line */
 
-let quoteSample = "3 blind mice.";
+/* let quoteSample = "3 blind mice.";
 let myRegex = /[^0-9aeiou]/gi; // Change this line
-let result = quoteSample.match(myRegex); // Change this line
+let result = quoteSample.match(myRegex); // Change this line */
+
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/gi; // Change this line
+let result = difficultSpelling.match(myRegex);
