@@ -55,8 +55,10 @@ let result = calRegex.test(rickyAndCal); */
 let lastRegex = /caboose$/; // Change this line
 let result = lastRegex.test(caboose); */
 
-let quoteSample = "The five boxing wizards jump quickly.";
+/* let quoteSample = "The five boxing wizards jump quickly.";
 let alphabetRegexV2 = /\w/ig; // Change this line
-let result = quoteSample.match(alphabetRegexV2);
+let result = quoteSample.match(alphabetRegexV2); */
 
-console.log(result);
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/ig; // Change this line
+let result = quoteSample.match(nonAlphabetRegex).length;
