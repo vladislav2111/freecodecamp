@@ -34,6 +34,12 @@ let result = quoteSample.match(myRegex); // Change this line */
 let myRegex = /[^0-9aeiou]/gi; // Change this line
 let result = quoteSample.match(myRegex); // Change this line */
 
-let difficultSpelling = "Mississippi";
+/* let difficultSpelling = "Mississippi";
 let myRegex = /s+/gi; // Change this line
-let result = difficultSpelling.match(myRegex);
+let result = difficultSpelling.match(myRegex); */
+
+// Only change code below this line
+let chewieRegex = /Aa*/; // Change this line
+// Only change code above this line
+
+let result = chewieQuote.match(chewieRegex);
