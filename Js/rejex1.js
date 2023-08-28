@@ -81,6 +81,15 @@ let result = sample.match(countWhiteSpace); */
 let ohRegex = /oh{3,6} no/ig; // Change this line
 let result = ohRegex.test(ohStr); */
 
-let timStr = "Timmmmber";
+/* let timStr = "Timmmmber";
 let timRegex = /tim{4}ber/i; // Change this line
-let result = timRegex.test(timStr);
+let result = timRegex.test(timStr); */
+
+function removeDuplicateWords (s) {
+	let res = [];
+	new Set(s.split(' ')).forEach(i=> res.push(i));
+	return res.join(' ');
+ }
+
+ console.log(removeDuplicateWords('hello hi hello my my dear'));
+
