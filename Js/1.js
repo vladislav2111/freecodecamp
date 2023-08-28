@@ -1,23 +1,7 @@
-const result = {
-	success: ["max-length", "no-amd", "prefer-arrow-functions"],
-	failure: ["no-var", "var-on-top", "linebreak"],
-	skipped: ["no-extra-semi", "no-dup-keys"]
- };
- function makeList(arr) {
-	// Only change code below this line
-	const failureItems = [];
+function bouncer(arr) {
+	let res = [...arr];
 	
-	for(let i of arr) {
-		failureItems.push(`<li class="text-warning">${i}</li>`);
-	}
-	
- 
- 
-	// Only change code above this line
- 
-	return failureItems;
+	return res.filter(i=>!!i===true);
  }
  
- const failuresList = makeList(result.failure);//['no-var', 'var on top']
-
- console.log(failuresList);
+console.log( bouncer([7, "ate", "", false, 9]));
